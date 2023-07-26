@@ -6,7 +6,7 @@ const Home = () => {
       <h1 className="head_text text-enter">Discover and share <br className="max-md:hidden" /> 
       <span className="orange_gradient text-center"> AI-Powered Prompts</span>
       </h1>
-      <p className="desc text-center">Promptopia is an open-source AT prompting tool for modern world to discover, create and share creative promptsCoops</p>
+      <p className="desc text-center">Promptopia is an open-source AI prompting tool for modern world to discover, create and share creative promptsCoops</p>
       <Feed />
     </section>
   )
