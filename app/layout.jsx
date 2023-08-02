@@ -1,6 +1,7 @@
 import '@styles/globals.css';
 import Provider from '@components/Provider';
 import Nav from '@components/Nav';
+import ParticlesContainer from '@components/ParticlesContainer';
 
 export const metadata = {
     title: "Promptopia",
@@ -22,6 +23,7 @@ const RootLayout = ({children}) => {
 
             <main className='app'>
               <Nav />
+            
             {children}
             </main>
             </Provider>
